@@ -10,7 +10,7 @@ const Navbar = () => {
     signOutUser()
       .then(() => {
         console.log("Successfully Signed Out");
-      })
+      })git
       .catch((error) => {
         console.log(error);
       });
