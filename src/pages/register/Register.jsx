@@ -65,12 +65,9 @@ const Register = () => {
               <button className="btn btn-primary">Register</button>
             </div>
           </form>
-          <div className="divider">OR</div>
-          <div className="text-center mb-5">
-            <SocialLogin></SocialLogin>
-          </div>
-        </div>
+          <SocialLogin></SocialLogin>
       </div>
+    </div>
     </div>
   );
 };
