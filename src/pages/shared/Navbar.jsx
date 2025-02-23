@@ -17,10 +17,16 @@ const Navbar = () => {
   };
 
   const links = (
-    <div>
-      <NavLink className="mr-5">About</NavLink>
-      <NavLink>Contact</NavLink>
-    </div>
+    <>
+      <li>
+        <NavLink to="/" className="mr-5">
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink to="/myApplications">My Applications</NavLink>
+      </li>
+    </>
   );
 
   return (

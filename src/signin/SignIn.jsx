@@ -7,6 +7,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const SignIn = () => {
   const { signInUser } = useContext(AuthContext);
   const location = useLocation();
+  console.log(location);
   const navigate = useNavigate();
   const from = location.state || "/";
 
