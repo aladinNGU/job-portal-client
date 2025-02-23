@@ -25,7 +25,7 @@ const AddJob = () => {
           </label>
           <input
             type="text"
-            name="jobTitle"
+            name="title"
             placeholder="Job Title"
             className="input input-bordered"
             required
@@ -38,7 +38,7 @@ const AddJob = () => {
           </label>
           <input
             type="text"
-            name="jobLocation"
+            name="location"
             placeholder="Job Location"
             className="input input-bordered"
             required
@@ -80,7 +80,7 @@ const AddJob = () => {
             </label>
             <input
               type="date"
-              name="appDeadline"
+              name="applicationDeadline"
               placeholder="Application Deadline"
               className="input input-bordered"
               required
@@ -135,7 +135,7 @@ const AddJob = () => {
 
           <textarea
             className="textarea textarea-bordered"
-            name="jobDescription"
+            name="description"
             placeholder="Job Description"
             id=""
             required
@@ -148,7 +148,7 @@ const AddJob = () => {
           </label>
           <input
             type="text"
-            name="companyName"
+            name="company"
             placeholder="Company Name"
             className="input input-bordered"
             required
@@ -161,7 +161,7 @@ const AddJob = () => {
           </label>
           <textarea
             className="textarea textarea-bordered"
-            name="jobRequirements"
+            name="requirements"
             placeholder="Put each requirement in a new line"
             required
           ></textarea>
@@ -173,7 +173,7 @@ const AddJob = () => {
           </label>
           <textarea
             className="textarea textarea-bordered"
-            name="jobResponsibilities"
+            name="responsibilities"
             placeholder="Write each responsibility in a new line"
             required
           ></textarea>
@@ -224,7 +224,7 @@ const AddJob = () => {
           </label>
           <input
             type="text"
-            name="companyLogo"
+            name="company_logo"
             placeholder="Company Logo"
             className="input input-bordered"
             required
